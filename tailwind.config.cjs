@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     colors: {
       dosis: "rgb(247, 239, 213)",
+      highlight: "rgb(253, 212, 90)",
     },
     extend: {},
   },

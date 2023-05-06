@@ -8,11 +8,23 @@ const header: Component<{}> = (props) => {
         <span class="text-xl">Full Stack Developer</span>
       </section>
       <section class="flex flex-row gap-3">
-        <span>About</span>
-        <span>Experience</span>
-        <span>Projects</span>
-        <span>Contact</span>
-        <span>Github</span>
+        <span class="cursor-pointer hover:text-highlight transition-colors h-fit">
+          <a href="/">About</a>
+        </span>
+        {/* <span class="cursor-pointer hover:text-highlight transition-colors h-fit">
+          <a href="/experience">Experience</a>
+        </span> */}
+        <span class="cursor-pointer hover:text-highlight transition-colors h-fit">
+          Projects
+        </span>
+        <span class="cursor-pointer hover:text-highlight transition-colors h-fit">
+          Contact
+        </span>
+        <span class="cursor-pointer hover:text-highlight transition-colors h-fit">
+          <a target="_blank" href="https://github.com/nhleto">
+            Github
+          </a>
+        </span>
       </section>
     </nav>
   );
